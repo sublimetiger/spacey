@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2024-01-25T16:27:16.834Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="u7luL9-3F-mOU3HtyImO" version="23.0.2" type="device">
+  <diagram name="Page-1" id="DpwEf_ijwhRhZHkCLRWW">
+    <mxGraphModel dx="1728" dy="922" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RFxG3lDSQZgmRRx-hy4t-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RFxG3lDSQZgmRRx-hy4t-32" target="RFxG3lDSQZgmRRx-hy4t-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFxG3lDSQZgmRRx-hy4t-32" value="Information webscraped from Wikipedia list of Falcon9 and Falcon Heavy Launches" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="28" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFxG3lDSQZgmRRx-hy4t-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RFxG3lDSQZgmRRx-hy4t-33" target="RFxG3lDSQZgmRRx-hy4t-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFxG3lDSQZgmRRx-hy4t-33" value="Locate key values within table entries" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365.5" y="111" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFxG3lDSQZgmRRx-hy4t-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RFxG3lDSQZgmRRx-hy4t-34" target="RFxG3lDSQZgmRRx-hy4t-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFxG3lDSQZgmRRx-hy4t-34" value="Iterate through tables to locate key data" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="201" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFxG3lDSQZgmRRx-hy4t-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RFxG3lDSQZgmRRx-hy4t-36" target="RFxG3lDSQZgmRRx-hy4t-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFxG3lDSQZgmRRx-hy4t-36" value="Populate python dictionary with webscraped data" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="291" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFxG3lDSQZgmRRx-hy4t-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RFxG3lDSQZgmRRx-hy4t-38" target="RFxG3lDSQZgmRRx-hy4t-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFxG3lDSQZgmRRx-hy4t-38" value="Append extracted data to generated dictionary" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFxG3lDSQZgmRRx-hy4t-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RFxG3lDSQZgmRRx-hy4t-40" target="RFxG3lDSQZgmRRx-hy4t-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFxG3lDSQZgmRRx-hy4t-40" value="Create dataframe from dictionary entries" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="365.5" y="466" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFxG3lDSQZgmRRx-hy4t-42" value="Data ready for development" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
